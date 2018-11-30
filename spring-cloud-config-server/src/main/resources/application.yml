@@ -1,0 +1,14 @@
+server:
+  port: 6001
+
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gitechoni/spring-cloud/
+          search-paths: config-repo
+          username:
+          password:
